@@ -1,0 +1,345 @@
+body{
+  background-color: gainsboro;
+  overflow-x: hidden;
+}
+ .sell-box {
+            margin-left: 318px;
+            width: 180px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #007bff;
+            background-color: orange;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .sell-box:hover {
+            transform: scale(1.05);
+        }
+        .sell-box a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sell-box a:hover {
+            color: #0056b3;
+        }
+.blue{
+  background-color: pink;
+  text-decoration: none;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+h1{
+  color: orange;
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 160px;
+}
+h1 div{
+  margin-top: 50px;
+}
+h3{
+  color: brown;
+  text-align: center;
+}
+.jiji-wrapper{
+  width: 100%;
+}
+.jiji-container{
+  width: 100%;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    .search-container {
+        flex-direction: column;
+    }
+
+    #search-bar {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    button {
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+h1{
+  color: orange;
+}
+h1 p{
+  font-size: 25px;
+  color: orange;
+}
+.navbar{
+  padding-top: px;
+  margin-top: -200px;
+  font-size: 30px;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  
+  display: inline-grid;
+  align-items: center;
+  background-color: blue;
+
+  /* box-shadow: 0px 1px 1px black; */
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+  width: 97%;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+nav ul #sell{
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+  background-color: orange;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 5px;
+}
+/* .logo h1{
+  color: white;
+  margin-left: 100%;
+  font-size: 2.5rem;
+} */
+.logo{
+  width: 40px;
+  height: 45px;
+  padding-left: 5px;
+  color: orange;
+}
+ul #sell:hover{
+  background-color: rgb(191, 125, 3);
+}
+.car-6{
+  margin-top: 90px;
+  height: 100%;
+
+}
+.cars-grid{
+  
+  width: 620px;
+  left: 60%;
+  
+  /* display: grid - is the display setting
+  grid-template-columns- makes your item especially image display side by side. And the measurements set makes that possible.*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* border:10px solid black; */
+  /* margin-bottom: 0; */
+  height: 50vh;
+}
+
+.full-img img{
+  width: 90%;
+  max-width: 500px;
+}
+h2{
+  color: green;
+  margin-left: 20px;
+}
+.me{
+  color: blue;
+}
+.car-7{
+  margin-top: -224px;
+  width: 90%;
+  height: 100%;
+  padding-left: 57px;
+}
+
+
+.cars-grid img{
+  height: 50%;
+  width: 97%;
+  cursor: pointer;
+  object-fit: cover;
+  /* border-radius: 10px; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.car-5,.car-6,.car-7,.car-8{
+  transform: translateY(-90px);
+}
+.car-9,.car-10,.car-11,.car-12{
+  transform: translateY(-180px);
+}
+.car-13,.car-14,.car-15,.car-16{
+  transform: translateY(-270px);
+}
+.car-17,.car-18,.car-19,.car-20{
+  transform: translateY(-390px);
+}
+.car-21,.car-22,.car-23,.car-24{
+  transform: translateY(-490px);
+}
+.car-7{
+  margin-left: 150px;
+}
+.car-1,.car-4,.car-6{
+  margin-left: 20px;
+}
+.text-1{
+  background-color: white;
+  height: 14%;
+  width: 93%;
+  transform: translateY(-5px);
+  top: -700px;
+  border-radius: 5px;
+  padding-top: -2000px;
+  padding-bottom: 0;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.text-1 h5 a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+.text-1 h6 a{
+  font-weight: 600;
+  color: green;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+.text-1 i{
+  color: green;
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translate(165px, -70px);
+}
+.text-1 i:hover{
+  box-shadow: 1px 1px 1px 1px whitesmoke;
+}
+
+
+.plus{
+    position: relative;
+    left: 615px;
+  }
+  .image img{
+    display: none;
+  }
+  .man img{
+    display: none;
+  }
+ 
+    }
+     .cars-grid{
+    position: absolute;
+    left: -170px;
+    width: 78%;
+    margin-left: -130px;
+    display: grid;
+
+
+
+  .cars-grid{
+    margin-top: 20%;
+  }
+    .cars-grid{
+    width: 45px;
+    margin-left: 20px;
+  }
+  .writing h2{
+    font-size: 2.5rem;
+  }
+  .class{
+    padding: 80px;
+    margin-top: 789px;
+
+  }
+  footer{
+    background-color: blue;
+  }
+  .blue{
+    text-align: center;
+    color: orange;
+    background-color: blue;
+  }
+  .ca{
+    margin-top: 56px;
+    padding: 80px;
+  }
+  .io{
+    margin-top: 97px;
+  }
+  .car-3 img{
+    padding-top: 7900px;
+    margin-top: 9088px;
+  }
+  .car-3{
+    padding-top: 7000px;
+    margin-top: 700px;
+    height: 50%;
+  width: 97%;
+  cursor: pointer;
+  object-fit: cover;
+  /* border-radius: 10px; */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  }
+  
+
+/* media query ends */

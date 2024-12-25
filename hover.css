@@ -1,0 +1,503 @@
+/*----------------------------*\
+	menu
+\*----------------------------*/
+
+/* .nav-menu {
+  position: relative;
+  text-align: center;
+  float: none;
+}
+
+.nav-menu>li {
+  float: none;
+  display: inline-block;
+}
+
+.nav-menu>li>a {
+  display: block;
+  padding: 25px 15px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+} */
+
+/*----------------------------*\
+	dropdown
+\*----------------------------*/
+
+/* .nav-menu li.has-dropdown {
+  position: relative;
+} */
+
+/* .nav-menu li.has-dropdown>a:after {
+  font-family: 'FontAwesome';
+  content: "\f0d7";
+  margin-left: 5px;
+} */
+.hovers .car-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+
+.hovers .car-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  transform: translateX(-15px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.nav-menu li.has-dropdown>.dropdown .dropdown-body {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-top: 2px solid #5561c5;
+}
+
+.dropdown .dropdown-list li {
+  /* border-bottom: 1px solid #e8eaed; */
+  list-style: none;
+}
+
+.dropdown .dropdown-list li a {
+  display: block;
+  padding: 10px;
+  line-height: 20px;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: black;
+  text-decoration: none;
+}
+.dropdown .dropdown-heading {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.hovers .house-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .house-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 25px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .phone-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .phone-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 30px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .electronics-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .electronics-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 15px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .home-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .home-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 20px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .beauty-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .beauty-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 23px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .fashion-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .fashion-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 21px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .sports-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .sports-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 20px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .work-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .work-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 20px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .services-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .services-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 21px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .jobs-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .jobs-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 19px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .babies-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .babies-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 19px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .pets-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .pets-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 19px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .food-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .food-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 19px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .tools-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .tools-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 19px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+.hovers .repair-hover>.dropdown {
+  position: absolute;
+  left: 105%;
+  width: 300px;
+  text-align: left;
+  z-index: 60;
+  -webkit-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+  background-color: white;
+}
+.hovers .repair-hover:hover>.dropdown {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  /* transform: translateY(0px); */
+  transform: translate(-15px, 19px);
+  opacity: 1;
+  visibility: visible;
+  border-left: 1px solid green;
+}
+
+/* @media only screen and (max-width:800px){
+.hovers .car-hover>.dropdown {
+  width: 190px;
+}
+.hovers .home-hover>.dropdown {
+  width: 200px;
+}
+.hovers .house-hover>.dropdown {
+  width: 200px;
+}
+.hovers .phone-hover>.dropdown {
+  width: 200px;
+}
+.hovers .electronics-hover>.dropdown {
+  width: 200px;
+}
+.hovers .home-hover>.dropdown {
+  width: 200px;
+}
+.hovers .beauty-hover>.dropdown {
+  width: 200px;
+}
+.hovers .fashion-hover>.dropdown {
+  width: 200px;
+}
+.hovers .sports-hover>.dropdown {
+  width: 200px;
+}
+.hovers .work-hover>.dropdown {
+  width: 200px;
+}
+.hovers .services-hover>.dropdown {
+  width: 200px;
+}
+.hovers .jobs-hover>.dropdown {
+  width: 250px;
+}
+.hovers .babies-hover>.dropdown {
+  width: 200px;
+}
+.hovers .pets-hover>.dropdown {
+  width: 200px;
+}
+.hovers .food-hover>.dropdown {
+  width: 200px;
+}
+.hovers .tools-hover>.dropdown {
+  width: 200px;
+}
+.hovers .repair-hover>.dropdown {
+  width: 200px;
+}
+} */

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Box</title>
+    <style>
+   
+        .sell-box {
+            width: 150px;
+            height: 75px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #007bff;
+            background-color: orange;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .sell-box:hover {
+            transform: scale(1.05);
+        }
+        .sell-box a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sell-box a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="sell-box">
+        <a href="https://example.com">Sell</a>
+    </div>
+</body>
+</html>
